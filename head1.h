@@ -1,13 +1,10 @@
-int sum(int a, int b);
+// mylibrary.h
+#ifdef HEAD1_EXPORTS
+#define HEAD1_API __declspec(dllexport)
+#else
+#define HEAD1_API __declspec(dllimport)
+#endif
 
-class Calculate{
-
-    public:
-        int add(int a, int b);
-        int mult(int x, int y);
-};
-
-class Filesystem{
-    public:
-        
-}
+HEAD1_API int add(int a, int b);
+// g++ -c head1.cpp -o head1.o 
+// g++ -shared -o head1.dll head1.o
