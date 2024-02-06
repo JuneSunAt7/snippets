@@ -1,4 +1,3 @@
-// mylibrary.h
 #ifdef HEAD1_EXPORTS
 #define HEAD1_API __declspec(dllexport)
 #else
