@@ -1,4 +1,4 @@
-# Example for stl and compile with g++ 
+# Example for stl containers and compile with g++ 
 
 ## [Sequential based containers](src/sequential/)
 
