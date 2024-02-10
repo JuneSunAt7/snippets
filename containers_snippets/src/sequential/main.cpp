@@ -1,13 +1,8 @@
-#include "sequential.h"
-
+#include "vector.h"
+#include "array.h"
 #include <iostream>
 
 int main(){
-    SequentialBase<int> seq1;
-    *seq1.add_elem() = 10;
-    seq1.print_elems(); // Output: 10
-
-    seq1.release();
-
-    seq1.print_elems(); // Output: 
+    //vector_main();
+    array_main();
 }
