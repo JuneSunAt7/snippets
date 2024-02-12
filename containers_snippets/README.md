@@ -3,7 +3,7 @@
 ## [Sequential based containers](src/sequential/)
 
 ### The following containers are considered:
-1) list 
+1) list ]
 
     Supports only sequential bidirectional element access.
 

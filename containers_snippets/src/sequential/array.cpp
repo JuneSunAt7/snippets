@@ -20,6 +20,4 @@ void array_main(){
     std::cout << myArray.front() << std::endl; // output A
     std::cout << myArray.size() << std::endl;//output 7
     std::cout << myArray.back() << std::endl;
-
-
 }
