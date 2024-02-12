@@ -1,5 +1,5 @@
-#include "map.h"
+#include "multiset.h"
 
 int main(){
-    map_main();
+    m_set_main();
 }
