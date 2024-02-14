@@ -2,11 +2,12 @@
 
 ## He is consist of: 
 
-### [DLL writing example](dll_snippets/)
+### Fundamental
+> [dll writing](dll_snippets/)
 Its a example for create dll from *.cpp and *.h files, 
 and compiling its with g++.
 
-### [Idioms](idioma_snippets/)
+### Idioms
 
 > [RAII idiom](idioma_snippets/src/raii.h)
   `resource acquisition is initialization`.
