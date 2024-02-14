@@ -25,7 +25,7 @@ so example: `char->int` or `double->float`.
 ### Standart library & STL
 That snippets consist of some examples for:
 
-> Date & Time
+> [Date & Time](date_time_snippets/README.md)
 
 > [Containers](containers_snippets/README.md)
 
