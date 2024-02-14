@@ -1,33 +1,29 @@
-<h1>Its a my repo for small snippets of code.</h1>
+# Its a my repo for small snippets of code
 
-<h2>He is consist of: </h2>
+## He is consist of: 
 
 ### [DLL writing example](dll_snippets/)
-its a example for create dll from *.cpp and *.h files, 
+Its a example for create dll from *.cpp and *.h files, 
 and compiling its with g++.
 
 ### [Idioms](idioma_snippets/)
 
-#### [RAII idiom](idioma_snippets/src/raii.h)
-
-`resource acquisition is initialization`.
+> [RAII idiom](idioma_snippets/src/raii.h)
+  `resource acquisition is initialization`.
 
 ### Type_casting
 
-its code realised example in cast types,
+Its code realised example in cast types,
 
 so example: `char->int` or `double->float`.
 
-#### static_cast
+> [static_cast](cast_snippets/README.md)
 
-#### dynamic_cast
+> [dynamic_cast](cast_snippets/README.md)
 
-#### bad_cast
-
-#### const_cast
 
 ### Standart library & STL
-that snippets consist of some examples for
+That snippets consist of some examples for:
 
 > Date & Time
 
