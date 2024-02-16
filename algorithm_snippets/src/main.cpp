@@ -1,9 +1,11 @@
-#include "find.h"
+#include "sort.h"
+#include <iostream>
 
-int main() { 
-    setlocale(LC_CTYPE,"Russian");
-    std::vector<int> numbers = { 1, 2, 3, 4, 5, 6 };
-     FinderVector<int> finder(numbers);
-      finder.find_main();
-       return 0; 
+int main() {
+    std::vector<int> numbers = {4, 2, 8, 5, 1, 6, 3, 7};
+
+    SorterVector<int> sv(numbers);
+    sv.sort_main();
+
+    return 0;
 }

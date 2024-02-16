@@ -24,7 +24,7 @@ class FinderVector{
             std::cin >> num;
             
             if (binary_find(num)) {
-                std::cout << "find!." << std::endl;
+                std::cout << "find!" << std::endl;
             }
             else {
                 std::cout << "no results(" << std::endl;
