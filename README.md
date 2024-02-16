@@ -32,7 +32,7 @@ That snippets consist of some examples for:
 
 > Iterators
 
-> Algorithms
+> [Algorithms](algorithm_snippets/README.md)
 
 > Threading and mutex.h
 
