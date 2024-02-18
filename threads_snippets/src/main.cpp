@@ -1,2 +1,7 @@
+#include "mutex.h"
 #include <iostream>
-int main(){}
+
+int main(){
+    Mutex mtx;
+    mtx.mutex_main();
+}
