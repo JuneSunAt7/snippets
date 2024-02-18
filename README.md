@@ -34,7 +34,7 @@ That snippets consist of some examples for:
 
 > [Algorithms](algorithm_snippets/README.md)
 
-> Threading and mutex.h
+> [Threading and mutex](threads_snippets/README.md)
 
 > Streams input/output in standart library
 
