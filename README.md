@@ -10,7 +10,13 @@ and compiling its with g++.
 ### Idioms
 
 > [RAII idiom](idioma_snippets/src/raii.h)
-  `resource acquisition is initialization`.
+  `Resource acquisition is initialization`.
+
+> [PImpl idiom](idioma_snippets/src/pimpl.h)
+`Pointer to implementation`
+
+> [Smart pointers idiom](idioma_snippets/README.md)
+`smart pointers, which are used to help ensure that programs are free of memory and resource leaks and are exception-safe.`
 
 ### Type_casting
 
@@ -30,11 +36,9 @@ That snippets consist of some examples for:
 
 > [Containers](containers_snippets/README.md)
 
-> Iterators
 
 > [Algorithms](algorithm_snippets/README.md)
 
 > [Threading and mutex](threads_snippets/README.md)
 
-> Streams input/output in standart library
 
