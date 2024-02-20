@@ -1,5 +1,6 @@
 #include "raii.h"
 #include "pimpl.h"
+#include "smart_pointers.h"
 
 #include <iostream>
 void raii_main(){
@@ -25,8 +26,20 @@ const unsigned count {5};   // count of elems
 
     delete [] data;
 }
-int main(){
+void pimpl_main(){
     PimplExample example;
     example.doSomething();
+}
+void s_pointer_main(){
+    SmartPointer<int> ptr(new int(10));
 
+    std::cout << *ptr << std::endl; // Выводит значение, на которое указывает указатель
+    *ptr = 20; // Изменяет значение, на которое указывает указатель
+    std::cout << *ptr << std::endl; // Выводит измененное значение
+
+}
+
+int main(){
+    
+    s_pointer_main();
 }
