@@ -1,8 +1,9 @@
 #include "raii.h"
-#include <iostream>
+#include "pimpl.h"
 
-int main(){
-    const unsigned count {5};   // count of elems
+#include <iostream>
+void raii_main(){
+const unsigned count {5};   // count of elems
     CharArray values{count};     //create obj for manipulate rc
 
     // add elemets to dynamic arr
@@ -23,4 +24,9 @@ int main(){
     std::cout << std::endl;
 
     delete [] data;
+}
+int main(){
+    PimplExample example;
+    example.doSomething();
+
 }
